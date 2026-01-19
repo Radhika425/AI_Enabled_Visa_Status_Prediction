@@ -30,3 +30,5 @@ Exploratory Data Analysis: Exploratory Data Analysis revealed significant variat
 Multiple regression models were trained to estimate visa processing time. Random Forest and Gradient Boosting models outperformed Linear Regression, achieving lower MAE and RMSE scores. Hyperparameter tuning further improved prediction accuracy. Feature importance analysis revealed employer size, prevailing wage, company age, and employment region as key contributors.
 
 A processing time estimation engine was developed using quantile regression techniques to generate prediction intervals instead of single-point estimates. The system accepts user-provided application details and returns an estimated processing time range with an associated confidence level, enabling better expectation management and decision-making.
+
+The predictive model was integrated into an interactive Streamlit-based web application, allowing users to input visa application details and receive an estimated processing time range with confidence intervals. The application was deployed using Streamlit Cloud, enabling real-time accessibility and user interaction.
