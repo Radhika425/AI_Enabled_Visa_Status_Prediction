@@ -28,3 +28,5 @@ Education level ordinal mapping
 Exploratory Data Analysis: Exploratory Data Analysis revealed significant variations in visa processing time across regions and seasons. Mid-year application periods exhibited increased processing delays, likely due to higher workloads. Feature importance analysis highlighted prevailing wage, employer characteristics, and education level as key determinants of visa approval outcomes.
 
 Multiple regression models were trained to estimate visa processing time. Random Forest and Gradient Boosting models outperformed Linear Regression, achieving lower MAE and RMSE scores. Hyperparameter tuning further improved prediction accuracy. Feature importance analysis revealed employer size, prevailing wage, company age, and employment region as key contributors.
+
+A processing time estimation engine was developed using quantile regression techniques to generate prediction intervals instead of single-point estimates. The system accepts user-provided application details and returns an estimated processing time range with an associated confidence level, enabling better expectation management and decision-making.
