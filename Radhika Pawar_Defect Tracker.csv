@@ -1,0 +1,11 @@
+Sr No,Submitted Date,Description,Detected Sprint,Assigned To,Type of Defect,Action Taken,Action Taken Date,Status,Remarks
+1,27-11-2025,Processing time prediction not generated for certain visa types,Sprint 1,Backend Team,Functional,Updated input validation logic and added fallback handling for unsupported visa types,28/11/2025,Closed,Prediction functioning correctly
+2,28-11-2025,ML model producing inconsistent processing time ranges,Sprint 1,Backend Team,Algorithmic,Retrained model with normalized features and recalibrated confidence interval logic,29-11-2025,Closed,Output stabilized
+3,06/12/2025,Streamlit UI not refreshing results after form submission,Sprint 1,Frontend Team,UI / Integration,Fixed state management and enforced rerun mechanism,07/12/2025,Closed,UI update verified
+4,10/12/2025,Application crash when mandatory input fields are left empty,Sprint 2,Backend Team,Validation,Added input validation and default office mapping,11/12/2025,Closed,Error handling improved
+5,12/12/2025,Confidence interval range not displayed correctly in UI,Sprint 2,Frontend Team,UI,Corrected data binding and formatting logic,13/12/2025,Closed,Display validated
+6,17-12-2025,Deployment failure due to missing environment configuration,Sprint 3,DevOps Team,Deployment,Added environment variable handling and updated deployment setup,18/12/2025,Closed,Deployment stabilized
+7,26-12-2025,High prediction latency for repeated user inputs,Sprint 3,Backend Team,Performance,Implemented caching and optimized preprocessing pipeline,27/12/2025,Closed,Latency reduced
+8,02/01/2026,Streamlit UI layout issues on smaller screen sizes,Sprint 4,Frontend Team,UI,Refactored layout using responsive components,03/01/2026,Closed,Responsive design achieved
+9,09/01/2026,Incorrect processing time calculation excluding non-working days,Sprint 4,Backend Team,Logic,Updated date calculation logic to exclude weekends,10/01/2026,Closed,Accurate estimates confirmed
+10,16-01-2026,Minor UI text and alignment inconsistencies,Sprint 4,Frontend Team,UI,Corrected labels and adjusted layout spacing,17/01/2026,Closed,Presentation-ready

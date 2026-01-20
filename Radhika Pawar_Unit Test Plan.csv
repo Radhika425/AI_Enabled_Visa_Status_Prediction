@@ -1,0 +1,13 @@
+Test Case ID,Module Name,Test Description,Expected Result,Actual Result,Status
+TC001,Data Preprocessing,Verify dataset loads correctly and preprocessing handles missing and categorical values,Cleaned dataset with encoded features and no missing values,Dataset successfully cleaned and transformed,Pass
+TC002,Feature Engineering,Validate creation of derived features such as company age and normalized wage,New engineered features generated correctly,Company age and wage normalization verified,Pass
+TC003,EDA Module,Confirm visualizations for processing time trends and regional analysis are generated,"Correct plots for distribution, seasonality, and regions",All EDA plots generated successfully,Pass
+TC004,Regression Model Training,Validate regression models train without errors and produce predictions,Models trained and predictions generated,"Linear, RF, and GB models trained successfully",Pass
+TC005,Model Evaluation,"Verify evaluation metrics (MAE, RMSE, R²) are computed accurately",Metrics displayed for all regression models,Evaluation metrics calculated correctly,Pass
+TC006,Hyperparameter Tuning,Ensure GridSearch improves model performance,Improved RMSE and R² scores,Tuned Random Forest outperformed baseline,Pass
+TC007,Processing Time Estimator Engine,Validate processing time range prediction for given inputs,Estimated processing time range returned,Time range (lower–upper bound) generated correctly,Pass
+TC008,Confidence Interval Calculation,Confirm confidence intervals reflect prediction uncertainty,"Valid confidence interval (e.g., 80%) generated",Confidence bounds computed successfully,Pass
+TC009,Streamlit UI Input,Check user input form accepts valid application details,Inputs accepted without errors,UI input validation successful,Pass
+TC010,Streamlit Prediction Output,Verify Streamlit app displays estimated processing time and range,Predicted time and range shown on UI,Output displayed correctly on UI,Pass
+TC011,Model Integration,Validate saved models load correctly in Streamlit application,Models loaded without runtime errors,Model loading successful,Pass
+TC012,Deployment,Confirm application deploys successfully on Streamlit Cloud,Public URL accessible and functional,Application deployed and accessible,Pass
