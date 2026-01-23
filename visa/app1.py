@@ -13,7 +13,7 @@ bundle = joblib.load(MODEL_PATH)
 model = bundle["model"]
 encoders = bundle["encoders"]
 
-st.title("Visa Case Status Predictor (Regression Based)")
+st.title("AI_Enabled_Visa_Status_Prediction")
 
 # ---------------------------
 # User Inputs
@@ -63,3 +63,4 @@ if st.button("Predict Case Status"):
     result = "Certified" if prediction >= 0.5 else "Denied"
 
     st.success(f"Predicted Case Status: **{result}**")
+
