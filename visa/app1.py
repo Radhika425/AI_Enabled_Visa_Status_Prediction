@@ -1,9 +1,15 @@
 import streamlit as st
 import pandas as pd
 import joblib
+import os
 
-# Load model bundle
-bundle = joblib.load("model.joblib")
+# ---------------------------
+# Load model bundle (FIXED PATH)
+# ---------------------------
+BASE_DIR = os.path.dirname(os.path.abspath(__file__))
+MODEL_PATH = os.path.join(BASE_DIR, "model.joblib")
+
+bundle = joblib.load(MODEL_PATH)
 model = bundle["model"]
 encoders = bundle["encoders"]
 
